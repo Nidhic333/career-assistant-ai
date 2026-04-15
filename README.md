@@ -25,22 +25,23 @@ This project is built using multiple AI agents:
 Compared traditional TF-IDF with embedding-based matching.
 Result: Embedding-based model performs better in capturing semantic similarity and improves job relevance ranking.
 ##  Project Structure
+
 career-assistant-ai/
-│
-├── agents/
-│   ├── resume_agent.py
-│   ├── matching_agent.py
-│   ├── decision_agent.py
-│   ├── explain_agent.py
-│   └── learning_agent.py
-│
-├── evaluation/
-│   └── evaluate.py
-│
-├── app.py
-├── test.py
-├── requirements.txt
-├── README.md
+
+- agents/
+  - resume_agent.py
+  - matching_agent.py
+  - decision_agent.py
+  - explain_agent.py
+  - learning_agent.py
+
+- evaluation/
+  - evaluate.py
+
+- app.py
+- test.py
+- requirements.txt
+- README.md
 ##  How to Run
 1. Clone the repository:
 git clone https://github.com/Nidhic333/career-assistant-ai.git
